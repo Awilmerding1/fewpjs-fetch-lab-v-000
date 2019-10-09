@@ -7,7 +7,7 @@ chai.use( spies );
 
 
 describe( "index.js", () => {
-  describe( 'fetchBooks()', () => {
+  describe( 'getPosts()', () => {
 
     beforeEach( () => {
       window.document.body.innerHTML = '<main></main>'
